@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20221118181740">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <title></title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header" id="header">
+    <div class="container">
+        <nav class="header__nav">
+            <a href="index.html" class="header__logo">
+                <img loading="lazy" class="logo" src="img/logo.svg" alt="">
+            </a>
+            <ul class="menu">
+                <li class="menu__item "><a href="company.html">О компании</a></li>
+                <li class="menu__item "><a href="news.html">Новости</a></li>
+                <li class="menu__item "><a href="documents.html">Документы</a></li>
+                <li class="menu__item "><a href="project.html">Проекты</a></li>
+            </ul>
+            <div class="right__menu">
+                <div class="numbers">
+                    <div class="numbers__info">
+                        <a href="tel:+7982452267" class="tel">+7 950 702-43-49</a>
+                        <div class="numbers__shedule">Пн-Пт. с 8:00 до 19:00</div>
+                    </div>
+                    <a href="tel:+7982452267" class="tel-icon">
+                        <img loading="lazy" class="icon-img" src="img/tel.svg" alt="">
+                    </a>
+                    <div class="number__btn">
+                        <button>Заказать звонок</button>
+                        <img loading="lazy" src="img/tel.svg" alt="">
+                    </div>
+                </div>
+            </div>  
+            <div class="btn__menu">
+                <div class="">Меню</div>
+            </div>
+        </nav>
+    </div>
+</header>
+<form action="" class="form">
+    <div class="form__body">
+        <div class="form__header">
+            <h4 class="form__header-title">Бесплатная консультация</h4>
+            <p class="form__header-content">Оставьте заявку и наши специалисты свяжутся с Вами в ближайшее время</p>
+        </div>
+        <div class="form__content">
+            <div class="form__content-title">Ваше имя *</div>
+            <input type="text" placeholder="Имя" required>
+            <div class="form__content-title">Ваш номер телефона  *</div>
+            <input id="tel" type="tel" maxlength="11" placeholder="+7 (___) ___ __ __" required>
+            <input type="submit" name="" id="submit">
+            <div class="form__content-btn">Закрыть</div>
+        </div>
+    </div>
+</form>
+    <main class="main">
+    <div class="none" style="background-image: url('img/media-bg-min.png');"></div>
+    <div class="bg photo-1" style="background-image: url('img/photo-bg1-min.png');">
+        <div class="container">
+            <div class="first-section">
+                <div class="column">
+                    <h1 class="column__title">
+                        Более <span>1000</span> комфортных квартир от 2,3 млн рублей  в Дзержинском р-не Ярославля
+                    </h1>
+                    <div class="column__buttons">
+                        <div class="btn-bg">
+                            <button class="btn btn-bg">Выбрать квартиру
+                                <img loading="lazy" src="img/calculator.svg" alt="">
+                            </button>
+                        </div>
+                        <button class="btn btn-bg btn-border">Получить консультацию</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <img class="photo-2" style="background-image: url('img/photo-bg2-min.png');" >
+            <img class="photo-3" style="background-image: url('img/photo-bg3-min.png');">
+        </div>
+    </div>
+    <section class="section">
+        <div class="container">
+            <h2 class="title">Преимущества жизни в ЖК “Возрождение”</h2>
+            <div class="cards">
+                <div class="cards__item">
+                    <picture><source srcset="img/cards-img-1-min.webp" type="image/webp"><img loading="lazy" src="img/cards-img-1-min.png" alt=""></picture>
+                </div>
+                <div class="cards__item">
+                    <picture><source srcset="img/cards-img-2-min.webp" type="image/webp"><img loading="lazy" src="img/cards-img-2-min.png" alt=""></picture>
+                </div>
+                <div class="cards__item">
+                    <picture><source srcset="img/cards-img-3-min.webp" type="image/webp"><img loading="lazy" src="img/cards-img-3-min.png" alt=""></picture>
+                </div>
+                <div class="cards__item">
+                    <picture><source srcset="img/cards-img-4-min.webp" type="image/webp"><img loading="lazy" src="img/cards-img-4-min.png" alt=""></picture>
+                </div>
+                <div class="cards__item">
+                    <picture><source srcset="img/cards-img-5-min.webp" type="image/webp"><img loading="lazy" src="img/cards-img-5-min.png" alt=""></picture>
+                </div>
+                <div class="cards__item">
+                    <picture><source srcset="img/cards-img-6-min.webp" type="image/webp"><img loading="lazy" src="img/cards-img-6-min.png" alt=""></picture>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map">
+        <h2 class="title">Инфраструктура и расположение</h2>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2519.8895438075965!2d33.23845558015817!3d55.110399541078465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sru!4v1668081030070!5m2!1sru!2sru" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <section class="slider">
+        <h2 class="title">Ход строительства</h2>
+        <div class="container">
+            <div class="slider__info">
+                <div class="slider__item slider-active">
+                    <div class="slider__item__content">
+                        <h4 class="slider__item-title">Литер 1</h4>
+                        <p class="date">Сентябрь 2021 - Декабрь 2022</p>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item__content">
+                        <h4 class="slider__item-title ">Литер 2</h4>
+                        <p class="date">Март 2022- Декабрь 2023</p>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item__content">
+                        <h4 class="slider__item-title">Литер 3</h4>
+                        <p class="date">Март 2023 - Декабрь 2024</p>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item__content">
+                        <h4 class="slider__item-title">Литер 4</h4>
+                        <p class="date">Март 2025 - Декабрь 2026</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-slider">
+                <div class="slider-photo">
+                    <picture><source srcset="img/gallery-photo1-min.webp" type="image/webp"><img loading="lazy" src="img/gallery-photo1-min.png" alt=""></picture>
+                    <div class="slider-date">
+                        <div class="num">
+                            <div class="num-date">5</div>
+                            <picture><source srcset="img/camera-min.webp" type="image/webp"><img loading="lazy" src="img/camera-min.png" alt=""></picture>
+                        </div>
+                        <div class="year">2021 / Июль</div>
+                    </div>
+                </div>
+                <div class="slider-photo">
+                    <picture><source srcset="img/gallery-photo2-min.webp" type="image/webp"><img loading="lazy" src="img/gallery-photo2-min.png" alt=""></picture>
+                    <div class="slider-date">
+                        <div class="num">
+                            <div class="num-date">5</div>
+                            <picture><source srcset="img/camera-min.webp" type="image/webp"><img loading="lazy" src="img/camera-min.png" alt=""></picture>
+                        </div>
+                        <div class="year">2021 / Июль</div>
+                    </div>
+                </div>
+                <div class="slider-photo">
+                    <picture><source srcset="img/gallery-photo3-min.webp" type="image/webp"><img loading="lazy" src="img/gallery-photo3-min.png" alt=""></picture>
+                    <div class="slider-date">
+                        <div class="num">
+                            <div class="num-date">5</div>
+                            <picture><source srcset="img/camera-min.webp" type="image/webp"><img loading="lazy" src="img/camera-min.png" alt=""></picture>
+                        </div>
+                        <div class="year">2021 / Июль</div>
+                    </div>
+                </div>
+                <div class="slider-photo">
+                    <picture><source srcset="img/gallery-photo3-min.webp" type="image/webp"><img loading="lazy" src="img/gallery-photo3-min.png" alt=""></picture>
+                    <div class="slider-date">
+                        <div class="num">
+                            <div class="num-date">5</div>
+                            <picture><source srcset="img/camera-min.webp" type="image/webp"><img loading="lazy" src="img/camera-min.png" alt=""></picture>
+                        </div>
+                        <div class="year">2021 / Июль</div>
+                    </div>
+                </div>
+                <div class="slider-photo">
+                    <picture><source srcset="img/gallery-photo2-min.webp" type="image/webp"><img loading="lazy" src="img/gallery-photo2-min.png" alt=""></picture>
+                    <div class="slider-date">
+                        <div class="num">
+                            <div class="num-date">5</div>
+                            <picture><source srcset="img/camera-min.webp" type="image/webp"><img loading="lazy" src="img/camera-min.png" alt=""></picture>
+                        </div>
+                        <div class="year">2021 / Июль</div>
+                    </div>
+                </div>
+                <div class="slider-photo">
+                    <picture><source srcset="img/gallery-photo1-min.webp" type="image/webp"><img loading="lazy" src="img/gallery-photo1-min.png" alt=""></picture>
+                    <div class="slider-date">
+                        <div class="num">
+                            <div class="num-date">5</div>
+                            <picture><source srcset="img/camera-min.webp" type="image/webp"><img loading="lazy" src="img/camera-min.png" alt=""></picture>
+                        </div>
+                        <div class="year">2021 / Июль</div>
+                    </div>
+                </div>
+                <div class="slider-photo">
+                    <picture><source srcset="img/gallery-photo1-min.webp" type="image/webp"><img loading="lazy" src="img/gallery-photo1-min.png" alt=""></picture>
+                    <div class="slider-date">
+                        <div class="num">
+                            <div class="num-date">5</div>
+                            <picture><source srcset="img/camera-min.webp" type="image/webp"><img loading="lazy" src="img/camera-min.png" alt=""></picture>
+                        </div>
+                        <div class="year">2021 / Июль</div>
+                    </div>
+                </div>
+                <div class="slider-photo">
+                    <picture><source srcset="img/gallery-photo2-min.webp" type="image/webp"><img loading="lazy" src="img/gallery-photo2-min.png" alt=""></picture>
+                    <div class="slider-date">
+                        <div class="num">
+                            <div class="num-date">5</div>
+                            <picture><source srcset="img/camera-min.webp" type="image/webp"><img loading="lazy" src="img/camera-min.png" alt=""></picture>
+                        </div>
+                        <div class="year">2021 / Июль</div>
+                    </div>
+                </div>
+                <div class="slider-photo">
+                    <picture><source srcset="img/gallery-photo3-min.webp" type="image/webp"><img loading="lazy" src="img/gallery-photo3-min.png" alt=""></picture>
+                    <div class="slider-date">
+                        <div class="num">
+                            <div class="num-date">5</div>
+                            <picture><source srcset="img/camera-min.webp" type="image/webp"><img loading="lazy" src="img/camera-min.png" alt=""></picture>
+                        </div>
+                        <div class="year">2021 / Июль</div>
+                    </div>
+                </div>
+                <div class="slider-photo">
+                    <picture><source srcset="img/gallery-photo3-min.webp" type="image/webp"><img loading="lazy" src="img/gallery-photo3-min.png" alt=""></picture>
+                    <div class="slider-date">
+                        <div class="num">
+                            <div class="num-date">5</div>
+                            <picture><source srcset="img/camera-min.webp" type="image/webp"><img loading="lazy" src="img/camera-min.png" alt=""></picture>
+                        </div>
+                        <div class="year">2021 / Июль</div>
+                    </div>
+                </div>
+                <div class="slider-photo">
+                    <picture><source srcset="img/gallery-photo2-min.webp" type="image/webp"><img loading="lazy" src="img/gallery-photo2-min.png" alt=""></picture>
+                    <div class="slider-date">
+                        <div class="num">
+                            <div class="num-date">5</div>
+                            <picture><source srcset="img/camera-min.webp" type="image/webp"><img loading="lazy" src="img/camera-min.png" alt=""></picture>
+                        </div>
+                        <div class="year">2021 / Июль</div>
+                    </div>
+                </div>
+                <div class="slider-photo">
+                    <picture><source srcset="img/gallery-photo1-min.webp" type="image/webp"><img loading="lazy" src="img/gallery-photo1-min.png" alt=""></picture>
+                    <div class="slider-date">
+                        <div class="num">
+                            <div class="num-date">5</div>
+                            <picture><source srcset="img/camera-min.webp" type="image/webp"><img loading="lazy" src="img/camera-min.png" alt=""></picture>
+                        </div>
+                        <div class="year">2021 / Июль</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <h2 class="title">Планировка квартир</h2>
+        <section class="plans">
+            <div class="plan">
+                <div class="plan-img">
+                    <picture><source srcset="img/plan-min.webp" type="image/webp"><img loading="lazy" src="img/plan-min.png" alt=""></picture>
+                </div>
+                <div class="plan-info">
+                    <div class="info-flex">
+                        <div class="plan-bg slider-active">
+                            <div class="slider__item__content plan-item">
+                                <h4 class="slider__item-title">1-комн.</h4>
+                            </div>
+                        </div>
+                        <div class="plan-bg">
+                            <div class="slider__item__content plan-item">
+                                <h4 class="slider__item-title">2-комн.</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="h3">Однокомнатные квартиры от 23 м<sup>2</sup></h3>
+                    <h2 class="title">от 5 400 000 ₽</h2>
+                    <div class="btn-bg">
+                        <button class="btn btn-bg plan__btn">Подобрать квартиру</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="gallery__photo">
+        <h2 class="title">Галерея наших фото</h2>
+        <div class="container">
+            <div class="gallery-slider gallery-slider-2">
+                <div class="slider-photo photo-d">
+                    <picture><source srcset="img/d1-min.webp" type="image/webp"><img loading="lazy"  src="img/d1-min.jpg" alt=""></picture>
+                </div>
+                <div class="slider-photo photo-d">
+                    <picture><source srcset="img/a2-min.webp" type="image/webp"><img loading="lazy"  src="img/a2-min.jpg" alt=""></picture>
+                </div>
+                <div class="slider-photo photo-d">
+                    <picture><source srcset="img/d5-min.webp" type="image/webp"><img loading="lazy" src="img/d5-min.jpg" alt=""></picture>
+                </div>
+                <div class="slider-photo photo-d">
+                    <picture><source srcset="img/a1-min.webp" type="image/webp"><img loading="lazy" src="img/a1-min.jpg" alt=""></picture>
+                </div>
+                <div class="slider-photo photo-d">
+                    <picture><source srcset="img/d2-min.webp" type="image/webp"><img loading="lazy" src="img/d2-min.jpg" alt=""></picture>
+                </div>
+                <div class="slider-photo photo-d">
+                    <picture><source srcset="img/a3-min.webp" type="image/webp"><img loading="lazy" src="img/a3-min.jpg" alt=""></picture>
+                </div>
+                <div class="slider-photo photo-d">
+                    <picture><source srcset="img/d4-min.webp" type="image/webp"><img loading="lazy" src="img/d4-min.jpg" alt=""></picture>
+                </div>
+                <div class="slider-photo photo-d">
+                    <picture><source srcset="img/i1-min.webp" type="image/webp"><img loading="lazy" src="img/i1-min.jpg" alt=""></picture>
+                </div>
+                <div class="slider-photo photo-d">
+                    <picture><source srcset="img/d3-min.webp" type="image/webp"><img loading="lazy" src="img/d3-min.jpg" alt=""></picture>
+                </div>
+                <div class="slider-photo photo-d">
+                    <picture><source srcset="img/i2-min.webp" type="image/webp"><img loading="lazy" src="img/i2-min.jpg" alt=""></picture>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h2 class="title">Как купить?</h2>
+    <section class="consult">
+        <div class="container">
+            <div class="consult__flex">
+                <div class="consult__capital">
+                    <div class="cap">
+                        <div class="capital-logo">
+                            <picture><source srcset="img/1-capital-min.webp" type="image/webp"><img loading="lazy" src="img/1-capital-min.png" alt=""></picture>
+                        </div>
+                        <div class="capital-info">
+                            <h3 class="h3">Материнский капитал</h3>
+                            <p class="capital-text">Материнский капитал и другие субсидии в качестве первоначального взноса при покупке жилья в ипотеку или части стоимости квартиры.</p>
+                        </div>
+                    </div>
+                    <div class="cap">
+                        <div class="capital-logo">
+                            <picture><source srcset="img/2-capital-min.webp" type="image/webp"><img loading="lazy" src="img/2-capital-min.png" alt=""></picture>
+                        </div>
+                        <div class="capital-info">
+                            <h3 class="h3">В ипотеку</h3>
+                            <p class="capital-text">Специальные ставки некоторых категорий граждан: многодетных и военных.</p>
+                        </div>
+                    </div>
+                    <div class="cap">
+                        <div class="capital-logo">
+                            <picture><source srcset="img/3-capital-min.webp" type="image/webp"><img loading="lazy" src="img/3-capital-min.png" alt=""></picture>
+                        </div>
+                        <div class="capital-info">
+                            <h3 class="h3">100% оплата</h3>
+                            <p class="capital-text">Принимают оплату по безналичному расчету.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="consult__cons">
+                    <div class="consult__cons-info">
+                        <h3 class="h3">Есть вопросы? </h3>
+                        <p class="capital-text">Закажите бесплатную консультацию или звоните за номером:</p>
+                        <h3 class="h3">+7 982 45-22-67</h3>
+                        <div class="btn-bg">
+                            <button class="btn btn-bg consult__btn">Заказать консультацию</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <h2 class="title">Отзывы наших клиентов</h2>
+            <div class="reviews__slider">
+                <article class="reviews__slider-slide">
+                    <div class="reviews__user">
+                        <div class="reviews__logo">
+                            <picture><source srcset="img/reviews-logo3-min.webp" type="image/webp"><img loading="lazy" src="img/reviews-logo3-min.png" alt=""></picture>
+                        </div>
+                        <div class="reviews__names">
+                            <h5 class="reviews__name">Антон Сергеевич</h5>
+                            <div class="vk">Страница VK</div>
+                        </div>
+                    </div>
+                    <p class="reviews__text">Повседневная практика показывает, что начало повседневной работы по формированию позиции предопределяет высокую востребованность форм воздействия!</p>
+                </article>
+                <article class="reviews__slider-slide">
+                    <div class="reviews__user">
+                        <div class="reviews__logo">
+                            <picture><source srcset="img/reviews-logo1-min.webp" type="image/webp"><img loading="lazy" src="img/reviews-logo1-min.png" alt=""></picture>
+                        </div>
+                        <div class="reviews__names">
+                            <h5 class="reviews__name">Виталий Степанов</h5>
+                            <div class="vk">Страница VK</div>
+                        </div>
+                    </div>
+                    <p class="reviews__text">Современные технологии достигли такого уровня, что внедрение современных методик говорит о возможностях как самодостаточных, так и внешне зависимых концептуальных решений. Диаграммы связей объективно рассмотрены соответствующими инстанциями.</p>
+                </article>
+                <article class="reviews__slider-slide">
+                    <div class="reviews__user">
+                        <div class="reviews__logo">
+                            <picture><source srcset="img/reviews-logo2-min.webp" type="image/webp"><img loading="lazy" src="img/reviews-logo2-min.png" alt=""></picture>
+                        </div>
+                        <div class="reviews__names">
+                            <h5 class="reviews__name">Анна Петровна</h5>
+                            <div class="vk">Страница VK</div>
+                        </div>
+                    </div>
+                    <p class="reviews__text">Современные технологии достигли такого уровня, что постоянное информационно-пропагандистское обеспечение нашей деятельности предоставляет широкие возможности для переосмысления внешнеэкономических политик.</p>
+                </article>
+            </div>
+    </section>
+    <h2 class="title">Наши партнеры</h2>
+    <div class="container">
+    <section class="partners">
+            <div class="partner">
+                <picture><source srcset="img/vtb-min.webp" type="image/webp"><img loading="lazy" src="img/vtb-min.png" alt=""></picture>
+            </div>
+            <div class="partner">
+                <picture><source srcset="img/sber-min.webp" type="image/webp"><img loading="lazy" src="img/sber-min.png" alt=""></picture>
+            </div>
+            <div class="partner">
+                <picture><source srcset="img/ros-bank-min.webp" type="image/webp"><img loading="lazy" src="img/ros-bank-min.png" alt=""></picture>
+            </div>
+        </section>
+    </div>
+</main>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__frame">
+            <div class="footer__logo">
+                <picture><source srcset="img/logo-min.webp" type="image/webp"><img class="logo" loading="lazy" src="img/logo-min.png" alt=""></picture>
+            </div>
+            <div class="footer__frame-info">
+                <div class="frame-info__text">
+                    <h5 class="frame-info__title">Остались вопросы?</h5>
+                    <p class="frame-info__p">
+                        Ответьте на них сами, либо же свяжитесь со мной по почте или позвоните по телефону
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer__contacts">
+            <div class="footer__contacts-info">
+                <div class="contacts-info-tel">Телефон:</div>
+                <div class="contacts-info-tel-number">+7 950 702-43-49</div>
+            </div>
+            <div class="footer__contacts-info">
+                <div class="contacts-info-tel">Ел. почта:</div>
+                <div class="contacts-info-tel-number">alimahmadovdzasur@gmail.com</div>
+            </div>
+            <div class="footer__contacts-info">
+                <div class="contacts-info-tel">Адрес офиса:</div>
+                <div class="contacts-info-tel-number">улица Кирова, дом 8, квартира 4</div>
+            </div>
+            <div class="footer__contacts-info">
+                <div class="contacts-info-tel">Адрес обекта:</div>
+                <div class="contacts-info-tel-number">Смоленская область, г. Сафоново</div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer__link">
+            <div class="footer__link-text">
+                <div class="text-politik"><a href="https://cleversite.ru/Confidential.pdf">Политика конфиденциальности</a></div>
+                <div class="text-document"><a href="">Документы</a></div>
+            </div>
+            <div class="footer__link-links">
+                <div class="links-item">
+                    <a href="https://vk.com/dzhasur2005">
+                        <img loading="lazy" src="img/vk.svg" alt="">
+                    </a>
+                </div>
+                <div class="links-item">
+                    <a href="https://t.me/DzhasurGenius">
+                        <img loading="lazy" src="img/telegram.svg" alt="">
+                    </a>
+                </div>
+                <div class="clas">
+                    <div class="links-item">
+                        <a href="">
+                            <img loading="lazy" src="img/instagram.svg" alt="">
+                        </a>
+                    </div>
+                    <a class="links-item arrow" href="#header">
+                        <img loading="lazy" src="img/arrow-up.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js?_v=20221118181740"></script>
+<script src="js/slick.min.js?_v=20221118181740"></script>
+<script src="js/app.min.js?_v=20221118181740"></script>
+</body>
+</html>
